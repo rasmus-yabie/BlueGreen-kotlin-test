@@ -1,0 +1,3 @@
+#!/bin/sh
+
+aws codebuild import-source-credentials --region eu-north-1 --cli-input-json file://git-creds.json
